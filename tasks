@@ -1,0 +1,2 @@
+- Put extensions into a file
+- Add a cron job that will check for updates to extensions and add them to file weekly
