@@ -4,5 +4,5 @@ extensions=(akamud.vscode-theme-onedark andischerer.theme-atom-one-dark azemoh.t
 
 for i in "${extensions[@]}"; do code --install-extension "$i"; done
 cd ~/.config/Code/User/
-cp -f settings.json ~/bash-scripts/settings.json
+cp -f settings.json ~/bash-scripts/assets/settings.json
 echo "Custom VScode config complete!"
