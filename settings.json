@@ -1,0 +1,11 @@
+{
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "One Dark Pro",
+    "theme-by-language.themes": {
+        "markdown": "Atom One Dark",
+        "haskell": "One Dark Theme",
+        "*": "One Dark Pro"
+    },
+    "editor.fontSize": 15,
+    "workbench.iconTheme": "vscode-great-icons"
+}

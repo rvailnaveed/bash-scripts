@@ -1,0 +1,8 @@
+#!/bin/bash
+
+extensions=(akamud.vscode-theme-onedark andischerer.theme-atom-one-dark azemoh.theme-onedark bpruitt-goddard.mermaid-markdown-syntax-highlighting dbaeumer.vscode-eslint dsznajder.es7-react-js-snippets dunstontc.dark-plus-syntax emmanuelbeziat.vscode-great-icons Equinusocio.vsc-material-theme jsaulou.theme-by-language justusadam.language-haskell ms-python.python shd101wyy.markdown-preview-enhanced tobiasalthoff.atom-material-theme UCL.haskelly yzhang.markdown-all-in-one zhuangtongfa.Material-theme)
+
+for i in "${extensions[@]}"; do code --install-extension "$i"; done
+cd ~/.config/Code/User/
+cp -f settings.json ~/bash-scripts/settings.json
+echo "Custom VScode config complete!"
