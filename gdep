@@ -3,4 +3,4 @@
 read -r -p 'Commit message: ' desc  # prompt user for commit message
 git add -A                          # track all files
 git commit -m "$desc"
-git push origin master
+git push
